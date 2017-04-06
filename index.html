@@ -7,14 +7,22 @@
 	<link rel="stylesheet" href="temp.css">
 </head>
 <body>
-	<label>Enter the temperature:<div><input type="text" id="tempInput"></div></label>
+
 	<div>
-		<label>Convert to Celsius or Fahrenheit?
-			<div><input type="radio" name="scale" id="celsius">Celsius</div>
-			<div><input type="radio" name="scale" id="fah">Fahrenheit</div>
-		</label>
+		<label>Convert to Celsius or Fahrenheit?</label>
+		<div>
+			<input type="radio" name="scale" id="celsius">Celsius
+		</div>
+		<div>
+			<input type="radio" name="scale" id="fah">Fahrenheit
+		</div>
+
+		<label>Enter the temperature:</label>
+		<div>
+			<input type="text" id="tempInput">
+		</div>
 	</div>
-	<div id="conv"></div>
+	<div id="output"></div>
 	<button id="button">Run calculation</button>
 
 
